@@ -1,0 +1,40 @@
+html{
+  background-color: #d98832;
+}
+
+body {
+    padding: 50px 10px;
+    margin: 0 auto;
+    width: 90vw;
+    min-height: calc(100vh - 100px);
+    background-color: white;
+    font-family: 'Georgia';
+    text-align: center;
+}
+
+
+hr{
+  width: 85%;
+
+}
+
+img{
+  max-width: 30%;
+  border-radius:50%;
+  padding-top:20px;
+}
+
+section {
+width: 20%;
+}
+
+.festival-sections{ 
+  display:flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  
+}
+
+.copyright{
+  padding:25px ;
+}
