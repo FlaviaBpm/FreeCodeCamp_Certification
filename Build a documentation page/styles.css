@@ -1,0 +1,97 @@
+body {
+  font-family:'Century Gothic';
+}
+#navbar {
+  position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+
+  background-color: rgb(105, 22, 22);
+  color: white;
+}
+
+#main-doc {
+  position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px; 
+}
+
+#navbar header{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+  font-family:'Times New Roman';
+  color: white;
+
+}
+
+header {
+  font-family:'Times New Roman';
+  font-size: 23px;
+  font-weight: bold;
+  color:rgb(105, 22, 22);
+}
+
+a {
+  text-decoration:  none;
+  color: white; 
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin-left: 0; 
+  padding-left: 0;
+  overflow-y: auto;
+  overflow-x: hidden; 
+}
+
+
+#navbar li {
+  padding: 15px;  
+  border-bottom: 1px solid;
+  
+}
+
+#navbar li:first-child {
+  border-top: 1px solid; 
+}
+
+@media only screen and (max-width: 815px) {
+    #navbar {
+        background-color: rgb(105, 22, 22);
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 275px;
+        border: none;
+        z-index: 1;
+        border-bottom: 2px solid;
+    }
+
+    #main-doc {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 270px;
+    }
+
+    #navbar ul {
+        border: 1px solid;
+        height: 207px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #main-doc {
+        margin-left: -10px;
+    }
+}
+
